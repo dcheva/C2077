@@ -96,8 +96,8 @@
                     "name": "TextSize",
                     "type": "int_list",
                     "is_dynamic": false,
-                    "value": 58,
-                    "index": 3,
+                    "value": 52,
+                    "index": 2,
                     "default_index": 2,
                     "values": [
                         32,
@@ -124,8 +124,8 @@
                     "name": "ChattersTextSize",
                     "type": "int_list",
                     "is_dynamic": false,
-                    "value": 42,
-                    "index": 2,
+                    "value": 32,
+                    "index": 0,
                     "default_index": 0,
                     "values": [
                         32,
@@ -291,25 +291,25 @@
                 {
                     "name": "crouchHold",
                     "type": "name",
-                    "value": "IK_LControl",
+                    "value": "IK_B",
                     "default_value": "IK_RControl"
                 },
                 {
                     "name": "crouchToggle",
                     "type": "name",
-                    "value": "IK_C",
+                    "value": "IK_LControl",
                     "default_value": "IK_C"
                 },
                 {
                     "name": "dodgeDash",
                     "type": "name",
-                    "value": "IK_Q",
+                    "value": "IK_Alt",
                     "default_value": "IK_LControl"
                 },
                 {
                     "name": "switchItem",
                     "type": "name",
-                    "value": "IK_B",
+                    "value": "IK_X",
                     "default_value": "IK_Alt"
                 },
                 {
@@ -327,7 +327,7 @@
                 {
                     "name": "holsterWeapon",
                     "type": "name",
-                    "value": "IK_H",
+                    "value": "IK_5",
                     "default_value": "IK_B"
                 },
                 {
@@ -369,7 +369,7 @@
                 {
                     "name": "quickmelee",
                     "type": "name",
-                    "value": "IK_X",
+                    "value": "IK_F",
                     "default_value": "IK_Q"
                 },
                 {
@@ -381,25 +381,25 @@
                 {
                     "name": "iconic",
                     "type": "name",
-                    "value": "IK_I",
+                    "value": "IK_Tab",
                     "default_value": "IK_E"
                 },
                 {
                     "name": "combatGadget",
                     "type": "name",
-                    "value": "IK_G",
+                    "value": "IK_MiddleMouse",
                     "default_value": "IK_MiddleMouse"
                 },
                 {
                     "name": "useConsumable",
                     "type": "name",
-                    "value": "IK_F",
+                    "value": "IK_Tilde",
                     "default_value": "IK_X"
                 },
                 {
                     "name": "visionHold",
                     "type": "name",
-                    "value": "IK_Alt",
+                    "value": "IK_Q",
                     "default_value": "IK_Tab"
                 },
                 {
@@ -465,7 +465,7 @@
                 {
                     "name": "inventory",
                     "type": "name",
-                    "value": "IK_Tab",
+                    "value": "IK_I",
                     "default_value": "IK_I"
                 },
                 {
@@ -482,7 +482,7 @@
                 {
                     "name": "MasterVolume",
                     "type": "int",
-                    "value": 50,
+                    "value": 100,
                     "default_value": 100,
                     "min_value": 0,
                     "max_value": 100,
@@ -491,7 +491,7 @@
                 {
                     "name": "SfxVolume",
                     "type": "int",
-                    "value": 100,
+                    "value": 80,
                     "default_value": 100,
                     "min_value": 0,
                     "max_value": 100,
@@ -509,7 +509,7 @@
                 {
                     "name": "MusicVolume",
                     "type": "int",
-                    "value": 100,
+                    "value": 80,
                     "default_value": 100,
                     "min_value": 0,
                     "max_value": 100,
@@ -728,7 +728,7 @@
                 {
                     "name": "quickhackInfo",
                     "type": "name",
-                    "value": "IK_Q",
+                    "value": "IK_Z",
                     "default_value": "IK_Z"
                 },
                 {
@@ -858,8 +858,8 @@
                     "name": "QuickPresets",
                     "type": "string_list",
                     "is_dynamic": true,
-                    "value": "Medium",
-                    "index": 2
+                    "value": "Custom",
+                    "index": 0
                 },
                 {
                     "name": "TextureQuality",
@@ -932,8 +932,8 @@
                     "name": "GameDifficulty",
                     "type": "string_list",
                     "is_dynamic": false,
-                    "value": "Hard",
-                    "index": 2,
+                    "value": "VeryHard",
+                    "index": 3,
                     "default_index": 2,
                     "values": [
                         "Story",
@@ -1264,7 +1264,7 @@
                 {
                     "name": "FPP_MouseX",
                     "type": "float",
-                    "value": 10.0,
+                    "value": 20.0,
                     "default_value": 5.0,
                     "min_value": 1.0,
                     "max_value": 30.0,
@@ -1279,7 +1279,7 @@
                 {
                     "name": "FPP_MouseY",
                     "type": "float",
-                    "value": 10.0,
+                    "value": 20.0,
                     "default_value": 5.0,
                     "min_value": 1.0,
                     "max_value": 30.0,
@@ -1308,7 +1308,7 @@
                 {
                     "name": "TPP_MouseX",
                     "type": "float",
-                    "value": 6.0,
+                    "value": 10.0,
                     "default_value": 3.0,
                     "min_value": 1.0,
                     "max_value": 30.0,
@@ -1323,7 +1323,7 @@
                 {
                     "name": "TPP_MouseY",
                     "type": "float",
-                    "value": 6.0,
+                    "value": 10.0,
                     "default_value": 3.0,
                     "min_value": 1.0,
                     "max_value": 30.0,
@@ -1545,7 +1545,7 @@
                 {
                     "name": "FSR2_Sharpness",
                     "type": "float",
-                    "value": 0.75,
+                    "value": 0.5,
                     "default_value": 0.5,
                     "min_value": 0.0,
                     "max_value": 1.0,
@@ -1721,8 +1721,8 @@
                     "name": "SpeakerSetup",
                     "type": "string_list",
                     "is_dynamic": false,
-                    "value": "SmallSpeakers",
-                    "index": 3,
+                    "value": "Headphones",
+                    "index": 1,
                     "default_index": 1,
                     "values": [
                         "HomeCinema",
@@ -1743,8 +1743,8 @@
                     "name": "CrowdDensity",
                     "type": "name_list",
                     "is_dynamic": false,
-                    "value": "Low",
-                    "index": 0,
+                    "value": "Medium",
+                    "index": 1,
                     "default_index": 2,
                     "values": [
                         "Low",
@@ -1813,7 +1813,7 @@
                 {
                     "name": "DepthOfField",
                     "type": "bool",
-                    "value": false,
+                    "value": true,
                     "default_value": true
                 },
                 {
@@ -1894,7 +1894,7 @@
                 {
                     "name": "CustomMapFilter",
                     "type": "int",
-                    "value": 226221,
+                    "value": 750575,
                     "default_value": 0,
                     "min_value": 0,
                     "max_value": 1000000,
@@ -2295,8 +2295,8 @@
                     "name": "CrowdDensity",
                     "type": "name_list",
                     "is_dynamic": false,
-                    "value": "Low",
-                    "index": 0,
+                    "value": "Medium",
+                    "index": 1,
                     "default_index": 2,
                     "values": [
                         "Low",
