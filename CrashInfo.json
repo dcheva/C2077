@@ -2,11 +2,11 @@
 	"RootType": "gameTelemetryPostMortemContainer",
 	"Data": {
 		"postMortem": {
-			"crashVisitId": "bedeeb37-b524-4ab2-81a2-8821a1e7c392",
+			"crashVisitId": "3616dabf-25e9-4546-b74a-e6a7eaaa824e",
 			"playthroughId": "651b716519576b24",
 			"crashVersion": "4940722",
 			"crashPatch": "2.02",
-			"timeCrash": "2023-11-09T08:00:03Z",
+			"timeCrash": "2023-11-09T08:09:32Z",
 			"trackedQuest": {
 				"name": "q305_border_crossing",
 				"objectiveName": "11_wait_for_them_to_leave",
@@ -21,7 +21,7 @@
 			},
 			"district": "Badlands_SoCalBorderCrossing",
 			"zoneType": "",
-			"sessionLength": 300.627991,
+			"sessionLength": 389.647003,
 			"isOom": false
 		}
 	}
