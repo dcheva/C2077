@@ -1,0 +1,28 @@
+{
+	"RootType": "gameTelemetryPostMortemContainer",
+	"Data": {
+		"postMortem": {
+			"crashVisitId": "bedeeb37-b524-4ab2-81a2-8821a1e7c392",
+			"playthroughId": "651b716519576b24",
+			"crashVersion": "4940722",
+			"crashPatch": "2.02",
+			"timeCrash": "2023-11-09T08:00:03Z",
+			"trackedQuest": {
+				"name": "q305_border_crossing",
+				"objectiveName": "11_wait_for_them_to_leave",
+				"type": "Q",
+				"questName": "",
+				"questType": ""
+			},
+			"location": {
+				"X": -2914.613281,
+				"Y": -5660.154297,
+				"Z": 102.280540
+			},
+			"district": "Badlands_SoCalBorderCrossing",
+			"zoneType": "",
+			"sessionLength": 300.627991,
+			"isOom": false
+		}
+	}
+}
