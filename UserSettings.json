@@ -932,8 +932,8 @@
                     "name": "GameDifficulty",
                     "type": "string_list",
                     "is_dynamic": false,
-                    "value": "Hard",
-                    "index": 2,
+                    "value": "VeryHard",
+                    "index": 3,
                     "default_index": 2,
                     "values": [
                         "Story",
@@ -1163,15 +1163,15 @@
                     "name": "WindowMode",
                     "type": "string_list",
                     "is_dynamic": true,
-                    "value": "Windowed",
-                    "index": 0
+                    "value": "BorderlessWindowed",
+                    "index": 1
                 },
                 {
                     "name": "Resolution",
                     "type": "string_list",
                     "is_dynamic": true,
-                    "value": "1680x1050",
-                    "index": 13
+                    "value": "1920x1080",
+                    "index": 14
                 },
                 {
                     "name": "HDRModes",
